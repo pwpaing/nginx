@@ -14,7 +14,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: n0m4j/nginx:nginx
+      - image: n0m4j/nginx:argo
         name: nginx
         ports:
         - containerPort: 80
